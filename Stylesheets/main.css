@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+    */
+    
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    /* This is my part */
+    .mainbox {
+        background-color: gainsboro;
+        border:  1px solid #d41616;
+        height: 350px;
+        margin left: 10%;
+        padding: 20px;
+        width: 700px;
+    }
+
+    hr {
+    display: block;
+    background-color: black;
+    height: 5px;
+    /*border: 55px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
+.   thinline {
+    color: black;
+    border-bottom-width: 40px;
+    height: 30px;
+    width: 150px;
+    border-block-color: black;
+}  
+h1 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+        }
+
+    h2 {
+        font-variant-caps: small-caps;
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 15px;
+        width: 400px;
+        margin: 0px;
+        /*display: inline-block;*/
+    }
+    h3 {
+    font-size: 15px;
+    font-weight: bolder;
+        }
+body {
+    background-color:lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+} 
+.picturebox {
+    background-color: blue;
+    border:  1px solid #d41616;
+    height: 100px;
+    padding: 20px;
+    width: 50px;  
+    position: absolute;
+    right: 50px;
+    display: inline-block;
+}
+/* div{
+        background-color: #666;
+        border:  1px solid #949599;
+        box-sizing: border-box 500px 500px;
+    }*/
+p {
+    /*box-sizing: border-box 50% 30px;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 400px;
+}
